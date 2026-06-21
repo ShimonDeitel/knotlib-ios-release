@@ -134,7 +134,7 @@ final class KnotLibTests: XCTestCase {
     func testStoreProductIDAndPrice() async {
         let store = Store()
         try? await Task.sleep(for: .seconds(0.3))
-        XCTAssertEqual(Store.productID, "knotlib_pro_unlock")
+        XCTAssertEqual(Store.productID, "knotlib_pro_monthly")
         XCTAssertEqual(store.displayPrice, "$0.99")
         XCTAssertFalse(store.isPro, "Pro must start locked")
     }
