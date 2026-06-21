@@ -1,0 +1,63 @@
+name: KnotLib
+options:
+  bundleIdPrefix: com.shimondeitel
+  deploymentTarget:
+    iOS: "17.0"
+  createIntermediateGroups: true
+  groupSortPosition: top
+settings:
+  base:
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    SWIFT_VERSION: "5.0"
+    DEVELOPMENT_TEAM: "W7Q885Q59C"
+    CODE_SIGN_STYLE: Automatic
+    IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+    TARGETED_DEVICE_FAMILY: "1"
+    ENABLE_USER_SCRIPT_SANDBOXING: "YES"
+targets:
+  KnotLib:
+    type: application
+    platform: iOS
+    sources:
+      - path: KnotLib
+      - path: Shared
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.shimondeitel.knotlib
+        TARGETED_DEVICE_FAMILY: "1"
+        INFOPLIST_FILE: KnotLib/Info.plist
+        CODE_SIGN_ENTITLEMENTS: KnotLib/KnotLib.entitlements
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        ENABLE_PREVIEWS: "YES"
+        GENERATE_INFOPLIST_FILE: "NO"
+  KnotLibTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: KnotLibTests
+      - path: KnotLib.storekit
+    dependencies:
+      - target: KnotLib
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.shimondeitel.knotlib.tests
+        GENERATE_INFOPLIST_FILE: "YES"
+        TARGETED_DEVICE_FAMILY: "1"
+schemes:
+  KnotLib:
+    build:
+      targets:
+        KnotLib: all
+        KnotLibTests: [test]
+    run:
+      config: Debug
+      storeKitConfiguration: KnotLib.storekit
+    test:
+      config: Debug
+      storeKitConfiguration: KnotLib.storekit
+      targets:
+        - KnotLibTests
+    archive:
+      config: Release

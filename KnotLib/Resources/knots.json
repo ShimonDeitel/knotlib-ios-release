@@ -1,0 +1,321 @@
+{
+  "version": 1,
+  "knots": [
+    {
+      "id": "overhand",
+      "name": "Overhand Knot",
+      "useCase": "The simplest stopper; the building block of many other knots.",
+      "category": "Stopper",
+      "difficulty": 1,
+      "free": true,
+      "diagram": "loopThrough",
+      "steps": [
+        "Make a loop near the end of the rope by crossing the working end over the standing part.",
+        "Pass the working end up through the loop from behind.",
+        "Pull the working end and standing part apart to tighten into a small firm knob."
+      ]
+    },
+    {
+      "id": "figure-8",
+      "name": "Figure-Eight",
+      "useCase": "A bulky stopper that keeps a rope from slipping out of a block or belay device.",
+      "category": "Stopper",
+      "difficulty": 1,
+      "free": true,
+      "diagram": "figureEight",
+      "steps": [
+        "Make a loop by passing the working end over the standing part.",
+        "Bring the working end around behind the standing part.",
+        "Pass the working end down through the original loop to form the figure-eight shape.",
+        "Dress the knot so both strands lie flat, then pull tight."
+      ]
+    },
+    {
+      "id": "square",
+      "name": "Square Knot",
+      "useCase": "Joins two ropes of equal thickness or ties off a bundle. Not for critical loads.",
+      "category": "Bend",
+      "difficulty": 1,
+      "free": true,
+      "diagram": "square",
+      "steps": [
+        "Hold one end in each hand and cross the left end over the right.",
+        "Tuck it under and bring it back up so the ends swap sides.",
+        "Now cross the right end (now on the left) over the other and tuck it under.",
+        "Pull all four strands to tighten: right-over-left, then left-over-right."
+      ]
+    },
+    {
+      "id": "bowline",
+      "name": "Bowline",
+      "useCase": "Forms a fixed loop that will not slip or jam; the 'king of knots' for rescue and rigging.",
+      "category": "Loop",
+      "difficulty": 2,
+      "free": true,
+      "diagram": "bowline",
+      "steps": [
+        "Make a small overhand loop in the standing part, leaving a long working end.",
+        "Pass the working end up through the loop from underneath (the rabbit comes out of the hole).",
+        "Bring the end around behind the standing part (around the tree).",
+        "Pass the end back down through the small loop (the rabbit goes back down the hole).",
+        "Hold the loop size you want and pull the standing part to set the knot."
+      ]
+    },
+    {
+      "id": "clove-hitch",
+      "name": "Clove Hitch",
+      "useCase": "Fastens a rope to a post or rail quickly; easy to adjust but can slip under varying load.",
+      "category": "Hitch",
+      "difficulty": 1,
+      "free": true,
+      "diagram": "cloveHitch",
+      "steps": [
+        "Pass the working end over and around the post once.",
+        "Cross over the standing part and wrap around the post a second time.",
+        "Tuck the working end under the second wrap so it crosses itself.",
+        "Pull both ends to snug the two turns against the post."
+      ]
+    },
+    {
+      "id": "two-half-hitches",
+      "name": "Two Half Hitches",
+      "useCase": "A reliable, adjustable way to tie a rope to a ring, post or grommet.",
+      "category": "Hitch",
+      "difficulty": 1,
+      "free": true,
+      "diagram": "twoHalfHitches",
+      "steps": [
+        "Pass the working end around the anchor and back toward the standing part.",
+        "Make a half hitch: wrap the end around the standing part and through the loop formed.",
+        "Make a second half hitch the same way, just below the first.",
+        "Slide the two hitches together and pull tight against the anchor."
+      ]
+    },
+    {
+      "id": "sheet-bend",
+      "name": "Sheet Bend",
+      "useCase": "Joins two ropes, even of different thickness or material; more secure than a square knot.",
+      "category": "Bend",
+      "difficulty": 2,
+      "free": false,
+      "diagram": "sheetBend",
+      "steps": [
+        "Form a bight (a U-shape) in the thicker rope and hold it closed.",
+        "Pass the thinner rope up through the bight from underneath.",
+        "Wrap the thinner rope around behind both legs of the bight.",
+        "Tuck the thinner end under itself where it first emerged, on the same side as the short end.",
+        "Pull the standing parts to tighten."
+      ]
+    },
+    {
+      "id": "taut-line-hitch",
+      "name": "Taut-Line Hitch",
+      "useCase": "An adjustable loop that grips under tension; ideal for tent guy-lines.",
+      "category": "Hitch",
+      "difficulty": 2,
+      "free": false,
+      "diagram": "tautLine",
+      "steps": [
+        "Pass the working end around the anchor and back alongside the standing part.",
+        "Make two wraps around the standing part working back toward the anchor, inside the loop.",
+        "Make one more wrap above those two, outside the loop.",
+        "Snug the coils; the hitch slides to adjust tension but grips when loaded."
+      ]
+    },
+    {
+      "id": "figure-8-loop",
+      "name": "Figure-Eight Loop",
+      "useCase": "A strong fixed loop tied on a bight; the standard tie-in loop in climbing.",
+      "category": "Loop",
+      "difficulty": 2,
+      "free": false,
+      "diagram": "figureEightLoop",
+      "steps": [
+        "Form a bight and tie a loose figure-eight in the doubled rope.",
+        "Pass the bight back through, re-tracing the figure-eight if tying around an anchor.",
+        "Dress the knot so all four strands run parallel without crossing.",
+        "Pull all strands firmly to set the loop."
+      ]
+    },
+    {
+      "id": "alpine-butterfly",
+      "name": "Alpine Butterfly",
+      "useCase": "A secure loop in the middle of a rope that can be loaded from any direction.",
+      "category": "Loop",
+      "difficulty": 3,
+      "free": false,
+      "diagram": "alpineButterfly",
+      "steps": [
+        "Wrap the rope twice around your open hand to make two turns.",
+        "Move the outer turn to the inside, between the other two.",
+        "Take the new outer turn and pass it over the others and under all the wraps.",
+        "Slide the resulting loop off your hand and pull both standing parts to set it."
+      ]
+    },
+    {
+      "id": "prusik",
+      "name": "Prusik",
+      "useCase": "A friction hitch that grips a rope when loaded and slides when relaxed; used for ascending.",
+      "category": "Hitch",
+      "difficulty": 3,
+      "free": false,
+      "diagram": "prusik",
+      "steps": [
+        "Form a closed loop of thinner cord with a double fisherman's knot.",
+        "Lay the loop behind the main rope and pass one end through the other to girth-hitch it.",
+        "Wrap the loop through itself two or three more times, keeping the wraps neat.",
+        "Dress the coils evenly; pull to test that it grips under load and slides when loose."
+      ]
+    },
+    {
+      "id": "double-fishermans",
+      "name": "Double Fisherman's",
+      "useCase": "Permanently joins two ropes or forms a cord loop; very strong and compact.",
+      "category": "Bend",
+      "difficulty": 3,
+      "free": false,
+      "diagram": "doubleFishermans",
+      "steps": [
+        "Lay the two rope ends side by side, pointing opposite directions.",
+        "Wrap one end twice around the other rope and pass it back through both wraps.",
+        "Repeat with the second end on the other rope, wrapping toward the first knot.",
+        "Pull the standing parts so the two knots slide together and lock."
+      ]
+    },
+    {
+      "id": "rolling-hitch",
+      "name": "Rolling Hitch",
+      "useCase": "Attaches a rope to a pole or another rope so it resists sliding lengthwise.",
+      "category": "Hitch",
+      "difficulty": 2,
+      "free": false,
+      "diagram": "rollingHitch",
+      "steps": [
+        "Wrap the working end around the rail twice on the side the load will pull from.",
+        "Cross over the standing part and make a third wrap on the far side.",
+        "Tuck the end under that final wrap to lock it.",
+        "Pull tight; the doubled turns keep it from rolling under a lengthwise pull."
+      ]
+    },
+    {
+      "id": "trucker-hitch",
+      "name": "Trucker's Hitch",
+      "useCase": "Creates a pulley-like mechanical advantage to cinch a load down tight.",
+      "category": "Hitch",
+      "difficulty": 3,
+      "free": false,
+      "diagram": "truckerHitch",
+      "steps": [
+        "Tie a fixed loop (such as a slip loop) partway along the standing part.",
+        "Pass the working end around the anchor point and back up through the loop.",
+        "Pull down on the working end to take up slack, gaining roughly a 2-to-1 purchase.",
+        "Hold the tension and finish with two half hitches around the standing part."
+      ]
+    },
+    {
+      "id": "constrictor",
+      "name": "Constrictor Knot",
+      "useCase": "Binds tightly around an object and grips hard; great as a temporary clamp or whipping.",
+      "category": "Binding",
+      "difficulty": 2,
+      "free": false,
+      "diagram": "constrictor",
+      "steps": [
+        "Pass the working end over and around the object.",
+        "Cross over the standing part and wrap around a second time.",
+        "Tuck the working end under the crossing point, beneath both turns.",
+        "Pull both ends hard; the knot bites down and resists loosening."
+      ]
+    },
+    {
+      "id": "timber-hitch",
+      "name": "Timber Hitch",
+      "useCase": "Secures a rope to a log or cylindrical object for dragging or hoisting.",
+      "category": "Hitch",
+      "difficulty": 1,
+      "free": false,
+      "diagram": "timberHitch",
+      "steps": [
+        "Pass the working end around the log and back around the standing part.",
+        "Twist the working end around its own part three or more times.",
+        "Make sure the twists run along the rope, not just at one point.",
+        "Pull the standing part so the turns bind against the log."
+      ]
+    },
+    {
+      "id": "cleat-hitch",
+      "name": "Cleat Hitch",
+      "useCase": "The standard way to secure a boat's line to a horn cleat on a dock.",
+      "category": "Hitch",
+      "difficulty": 1,
+      "free": false,
+      "diagram": "cleatHitch",
+      "steps": [
+        "Take the line to the far horn of the cleat first, then around the base.",
+        "Cross over the top of the cleat in a figure-eight to the other horn.",
+        "Make one or two more figure-eight turns across the cleat.",
+        "Finish with a locking hitch by flipping a loop over the last horn, then pull snug."
+      ]
+    },
+    {
+      "id": "anchor-bend",
+      "name": "Anchor Bend",
+      "useCase": "A secure hitch for attaching a line to an anchor ring; resists working loose.",
+      "category": "Hitch",
+      "difficulty": 2,
+      "free": false,
+      "diagram": "anchorBend",
+      "steps": [
+        "Pass the working end through the ring twice, leaving a loose round turn.",
+        "Bring the end across the standing part and tuck it under both turns of the round turn.",
+        "Pull snug so the round turn clamps the tucked end.",
+        "Finish with a half hitch around the standing part for security."
+      ]
+    },
+    {
+      "id": "slip-knot",
+      "name": "Slip Knot",
+      "useCase": "A quick-release loop that unties with one pull on the working end.",
+      "category": "Loop",
+      "difficulty": 1,
+      "free": false,
+      "diagram": "slipKnot",
+      "steps": [
+        "Make a loop in the standing part of the rope.",
+        "Push a bight of the working end up through the loop rather than the end itself.",
+        "Pull the standing part to snug the loop around the bight.",
+        "A pull on the working end collapses the bight and releases the knot."
+      ]
+    },
+    {
+      "id": "carrick-bend",
+      "name": "Carrick Bend",
+      "useCase": "Joins two heavy ropes; lies flat, stays secure, and stays easy to untie after loading.",
+      "category": "Bend",
+      "difficulty": 3,
+      "free": false,
+      "diagram": "carrickBend",
+      "steps": [
+        "Form a loop in the first rope with the working end on top.",
+        "Lay the second rope's end over that loop, then weave it under-over-under across the loop.",
+        "The two ends should finish on diagonally opposite sides.",
+        "Pull the standing parts; the knot capsizes into a compact, secure form."
+      ]
+    },
+    {
+      "id": "water-knot",
+      "name": "Water Knot",
+      "useCase": "Joins two lengths of flat webbing, as in climbing slings; retraces an overhand knot.",
+      "category": "Bend",
+      "difficulty": 2,
+      "free": false,
+      "diagram": "waterKnot",
+      "steps": [
+        "Tie a loose overhand knot near the end of one piece of webbing.",
+        "Feed the end of the second piece into the knot, following its path exactly in reverse.",
+        "Keep the webbing flat and untwisted as you retrace.",
+        "Leave long tails and pull all four strands tight to dress the knot."
+      ]
+    }
+  ]
+}
