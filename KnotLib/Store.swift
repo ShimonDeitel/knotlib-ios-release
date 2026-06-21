@@ -1,12 +1,12 @@
 import Foundation
 import StoreKit
 
-/// StoreKit 2 — one-time non-consumable unlock (`knotlib_pro_unlock`).
+/// StoreKit 2 — monthly auto-renewable subscription (`knotlib_pro_monthly`).
 /// Pro is NEVER persisted as truth: it is derived live from `Transaction.currentEntitlements`,
 /// granted only on a `.verified` transaction with no revocation, and cleared in-session on refund.
 @MainActor
 final class Store: ObservableObject {
-    static let productID = "knotlib_pro_unlock"
+    static let productID = "knotlib_pro_monthly"
 
     @Published private(set) var isPro = false
     @Published private(set) var product: Product?
