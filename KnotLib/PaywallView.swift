@@ -23,7 +23,7 @@ struct PaywallView: View {
                             .font(.system(size: 40, weight: .semibold))
                             .foregroundStyle(Color.klAccent)
                         Text("Knot Library Pro").font(.largeTitle.weight(.heavy))
-                        Text("One-time purchase. Yours forever. No subscription.")
+                        Text("$0.99 / month. Auto-renews until you cancel.")
                             .font(.subheadline).foregroundStyle(.secondary)
                             .multilineTextAlignment(.center)
                     }
@@ -62,6 +62,12 @@ struct PaywallView: View {
 
                         Button("Restore Purchase") { Task { await restore() } }
                             .font(.subheadline).tint(.secondary)
+                            Link("Terms of Use", destination: URL(string: "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/")!)
+                                .font(.footnote).tint(.blue)
+                            Link("Privacy Policy", destination: URL(string: "https://shimondeitel.github.io/knotlib-site/privacy.html")!)
+                                .font(.footnote).tint(.blue)
+                            Text("Payment is charged to your Apple Account at confirmation. The $0.99 monthly subscription auto-renews unless canceled at least 24 hours before the period ends. Manage in Settings.")
+                                .font(.caption2).foregroundStyle(.secondary).multilineTextAlignment(.center).padding(.top, 2)
 
                         if let restoreMessage {
                             Text(restoreMessage).font(.footnote).foregroundStyle(.secondary)
