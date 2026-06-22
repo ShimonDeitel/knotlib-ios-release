@@ -1,40 +1,53 @@
 {
-  "appPolicies" : {
-    "eula" : "",
-    "policies" : [
+  "appPolicies": {
+    "eula": "",
+    "policies": [
       {
-        "locale" : "en_US",
-        "policyText" : "",
-        "policyURL" : ""
+        "locale": "en_US",
+        "policyText": "",
+        "policyURL": ""
       }
     ]
   },
-  "identifier" : "KNOTLIB_STOREKIT_CONFIG",
-  "nonRenewingSubscriptions" : [],
-  "products" : [
+  "identifier": "KNOTLIB_STOREKIT_CONFIG",
+  "nonRenewingSubscriptions": [],
+  "products": [],
+  "settings": {
+    "_failTransactionsEnabled": false,
+    "_storeKitErrors": []
+  },
+  "subscriptionGroups": [
     {
-      "displayPrice" : "0.99",
-      "familyShareable" : true,
-      "internalID" : "knotlib_pro_unlock_id",
-      "localizations" : [
+      "id": "knotlib_pro_group",
+      "localizations": [],
+      "name": "Knot Library Pro",
+      "subscriptions": [
         {
-          "description" : "Unlock all 20+ knots, the daily muscle-memory drill, mark-mastered tracking and one-tap sharing. One-time purchase.",
-          "displayName" : "Knot Library Pro",
-          "locale" : "en_US"
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "0.99",
+          "familyShareable": false,
+          "groupNumber": 1,
+          "internalID": "knotlib_pro_monthly_id",
+          "introductoryOffer": null,
+          "localizations": [
+            {
+              "description": "Unlock all 20+ knots, the daily muscle-memory drill, mark-mastered tracking and one-tap sharing.",
+              "displayName": "Knot Library Pro",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "knotlib_pro_monthly",
+          "recurringSubscriptionPeriod": "P1M",
+          "referenceName": "Knot Library Pro Monthly",
+          "subscriptionGroupID": "knotlib_pro_group",
+          "type": "RecurringSubscription"
         }
-      ],
-      "productID" : "knotlib_pro_unlock",
-      "referenceName" : "Knot Library Pro Unlock",
-      "type" : "NonConsumable"
+      ]
     }
   ],
-  "settings" : {
-    "_failTransactionsEnabled" : false,
-    "_storeKitErrors" : []
-  },
-  "subscriptionGroups" : [],
-  "version" : {
-    "major" : 3,
-    "minor" : 0
+  "version": {
+    "major": 3,
+    "minor": 0
   }
 }
