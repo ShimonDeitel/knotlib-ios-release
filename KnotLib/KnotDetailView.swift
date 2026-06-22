@@ -29,7 +29,8 @@ struct KnotDetailView: View {
         .toolbar {
             ToolbarItem(placement: .topBarTrailing) {
                 Button {
-                    Haptics.tap(); showShare = true
+                    Haptics.tap()
+                    if store.isPro { showShare = true } else { showPaywall = true }
                 } label: {
                     Image(systemName: "square.and.arrow.up").accessibilityLabel("Share")
                 }
