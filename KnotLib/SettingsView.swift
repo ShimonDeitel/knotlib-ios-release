@@ -73,7 +73,7 @@ struct SettingsView: View {
             }
         } footer: {
             if !store.isPro {
-                Text("One-time purchase. All 20+ knots, the daily drill, mastery tracking and sharing.")
+                Text("$0.99/month subscription. All 20+ knots, the daily drill, mastery tracking and sharing. Auto-renews until canceled.")
             }
         }
     }
